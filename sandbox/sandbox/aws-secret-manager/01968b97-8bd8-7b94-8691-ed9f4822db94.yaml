@@ -1,0 +1,44 @@
+name: testing
+id: 01968b97-8bd8-7b94-8691-ed9f4822db94
+description: this is for testing
+blueprintid: aws-secret-manager
+createdat: "2025-05-01"
+createdby: anonymous
+lastmodifiedat: "2025-05-01"
+lastmodifiedby: anonymous
+spec:
+    - 123
+    - 13
+    - 10
+    - 32
+    - 32
+    - 32
+    - 32
+    - 34
+    - 115
+    - 101
+    - 99
+    - 114
+    - 101
+    - 116
+    - 78
+    - 97
+    - 109
+    - 101
+    - 34
+    - 58
+    - 32
+    - 34
+    - 104
+    - 105
+    - 34
+    - 13
+    - 10
+    - 32
+    - 32
+    - 125
+status: 0
+resources: []
+metadata:
+    group: sandbox
+    project: sandbox
