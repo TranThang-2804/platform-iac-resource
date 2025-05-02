@@ -1,0 +1,19 @@
+basedomainstruct: {}
+name: testing
+id: 0196907a-54c9-7674-995f-8dcac0517314
+description: this is for testing
+blueprintid: aws-secret-manager
+blueprintversion: v1
+createdat: "2025-05-02"
+createdby: anonymous
+lastmodifiedat: "2025-05-02"
+lastmodifiedby: anonymous
+spec:
+    secretName: hi
+status: 0
+generatedtemplate: ""
+resources: []
+metadata:
+    basedomainstruct: {}
+    group: ""
+    project: ""
