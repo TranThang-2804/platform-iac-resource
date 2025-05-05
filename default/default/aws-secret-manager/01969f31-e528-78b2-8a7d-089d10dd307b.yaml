@@ -9,7 +9,7 @@ lastModifiedAt: "2025-05-05"
 lastModifiedBy: anonymous
 spec:
     secretName: hi
-status: Pending
+status: Provisioning
 resources:
     - name: v1
       id: 01969f31-e528-78b2-8a7d-089d10dd307b
