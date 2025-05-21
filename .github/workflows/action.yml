@@ -1,0 +1,26 @@
+name: Run Terraform
+
+on:
+  workflow_dispatch:
+
+jobs:
+  CD-Prod:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_COLOR: 1
+      GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
+    steps:
+      - uses: earthly/actions-setup@v1
+        with:
+          version: v0.8.0
+      - uses: actions/checkout@v4
+      - name: RUN_TERRAFORM
+        run: |
+          earthly --ci +terraform \
+            --TEMPLATE_PATH="$TEMPLATE_PATH" \
+            --TEMPLATE_GIT_URI="$TEMPLATE_PATH_URI" \
+            --TEMPLATE_GIT_BRANCH="$TEMPLATE_GIT_BRANCH" \
+            --GIT_USERNAME="$GIT_USERNAME" \
+            --GIT_TOKEN="$GIT_TOKEN" \
+            --ACTION="$ACTION" \
+            --ENCODED_VALUE="$ENCODED_VALUE"
